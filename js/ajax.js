@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$.ajax({
-	  url: "www.veranochileno.tumblr.com/rss",
+	  url: "http://phloxblog.in/rss/?feed=1",
 	  cache: false
 	}).done(function( html ) {
 	  $("#home").html('');
