@@ -15,28 +15,7 @@
     <!-- Add custom CSS here -->
     <link href="css/blog-home.css" rel="stylesheet">
 
-    <script>
-function showRSS(str) {
-  if (str.length==0) { 
-    document.getElementById("rssOutput").innerHTML="";
-    return;
-  }
-  if (window.XMLHttpRequest) {
-    // code for IE7+, Firefox, Chrome, Opera, Safari
-    xmlhttp=new XMLHttpRequest();
-  } else {  // code for IE6, IE5
-    xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-  }
-  xmlhttp.onreadystatechange=function() {
-    if (xmlhttp.readyState==4 && xmlhttp.status==200) {
-      document.getElementById("rssOutput").innerHTML=xmlhttp.responseText;
-    }
-  }
-  xmlhttp.open("GET","index.php?q="+str,true);
-  xmlhttp.send();
-}
-</script>
-    
+
 </head>
 
 <body>
@@ -74,37 +53,12 @@ function showRSS(str) {
         <div class="row">
             <div class="col-lg-8">
                 
-                <form>
-<select onchange="showRSS(this.value)">
-<option value="">Select an RSS-feed:</option>
-<option value="Google">Google News</option>
-<option value="MSNBC">MSNBC News</option>
-</select>
-</form>
-                <br>
-<div id="rssOutput">RSS-feed will be listed here...</div>
+
                 
                 <!-- RSS feed -->
                 
-                <div id="myTabContent" class="tab-content">
-              <div class="tab-pane fade  active in" id="home">
-                <p>
-				Technology News (Reuters) - Loading ....
-				</p>
-              </div>
-			  <div class="tab-pane fade" id="profile">
-                <p>
-				ESPN Cricket - Loading ....
-				</p>
-              </div>
-			  <div class="tab-pane fade" id="pba">
-                <p>
-				Technical Articles from Phloxblog - Loading ....
-				</p>
-              </div>
-
-            </div>
-          
+           
+          <div id="divRss"></div>
                 
                 <!-- /RSS feed -->
 
@@ -238,7 +192,14 @@ function showRSS(str) {
     <script src="js/jquery-1.10.2.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- <script src="js/ajax.js"></script> -->
+    <script type="text/javascript" src="js/FeedEk.js"></script>
 
+    <script type="text/javascript" >
+$('#divRss').FeedEk({
+    FeedUrl : 'www.veranochileno.tumblr.com/rss',
+  });
+</script>
+    
 </body>
 
 </html>
