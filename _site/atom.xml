@@ -1,37 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>Jekyll Bootstrap</title>
+ <title>Threeseee blog</title>
  <link href="http://threeseee.github.io/" rel="self"/>
  <link href="http://threeseee.github.io"/>
- <updated>2014-07-15T16:56:05-04:00</updated>
+ <updated>2014-07-15T17:59:15-04:00</updated>
  <id>http://threeseee.github.io</id>
  <author>
-   <name>Name Lastname</name>
-   <email>blah@email.test</email>
+   <name>Threeseee Blog</name>
+   <email>threeseee@mit.edu</email>
  </author>
 
  
  <entry>
-   <title>First Post</title>
-   <link href="http://threeseee.github.io/2014/07/15/first-post"/>
+   <title>Summary - bjohns</title>
+   <link href="http://threeseee.github.io/:people/2014/07/15/first-post"/>
    <updated>2014-07-15T00:00:00-04:00</updated>
-   <id>http://threeseee.github.io/2014/07/15/first-post</id>
-   <content type="html">&lt;p&gt;What happens when we make a real post?&lt;/p&gt;
+   <id>http://threeseee.github.io/:people/2014/07/15/first-post</id>
+   <content type="html">&lt;p&gt;Hi friends I’m spending the summer in Santiago, Chile. I work for TOHL, a water infrastructure company, but they don’t really have anything happening right now so after making like 4 ppts and a flyer my first two weeks I’ve basically just been dicking around. It’s super fun but the smog in Santiago is like blehhhhh. Um I have a blog if you want more details about my fun fun Chile adventures. I’m going back to the states on August 16th. I’ve been attempting to speak Spanish and I’m getting better, but I still suck pretty hard. If you didn’t know, I’m sharing an apartment with Anthony and cooking with an oven and pretending really hard to be a real adult and shit. Here’s a selfie.&lt;/p&gt;
 
-&lt;p&gt;Do things happen?&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Here are some more words&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://4.bp.blogspot.com/-XSyLBi8QSRU/U77Zq3IEdXI/AAAAAAAAJBM/tf7ppt28Jr8/s1600/Jul+10,+2014+2:21:25+PM.jpg&quot; height=&quot;200px&quot; /&gt;&lt;/p&gt;
 </content>
  </entry>
  
  <entry>
    <title>Jekyll Introduction</title>
-   <link href="http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction"/>
+   <link href="http://threeseee.github.io/:people/2011/12/29/jekyll-introduction"/>
    <updated>2011-12-29T00:00:00-03:00</updated>
-   <id>http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction</id>
+   <id>http://threeseee.github.io/:people/2011/12/29/jekyll-introduction</id>
    <content type="html">
 &lt;p&gt;This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we’ll learn exactly &lt;em&gt;how&lt;/em&gt; Jekyll does what it does.&lt;/p&gt;

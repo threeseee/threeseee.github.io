@@ -5,6 +5,7 @@ tagline: Welcome to the blog
 ---
 {% include JB/setup %}
 
+
 Hey there! We're running this on Jekyll because github only hosts static pages. 
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
@@ -32,12 +33,8 @@ We should update author attributes at some point.
 
   <!-- Your post's summary goes here -->
   <article>{{ post.excerpt }}</article> 
+  <br>
+  <a href="{{ post.url }}">Read More </a>
   <hr>
 {% endfor %}
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
 

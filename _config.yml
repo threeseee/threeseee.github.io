@@ -1,6 +1,6 @@
 # This is the default format. 
 # For more see: http://jekyllrb.com/docs/permalinks/
-permalink: /:categories/:year/:month/:day/:title 
+permalink: /:people/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
@@ -10,11 +10,11 @@ excerpt_separator: <!--more-->  # you can specify your own separator, of course.
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Jekyll Bootstrap
+title : Threeseee blog
 tagline: Site Tagline
 author :
-  name : Name Lastname
-  email : blah@email.test
+  name : Threeseee Blog
+  email : threeseee@mit.edu
   github : username
   twitter : username
   feedburner : feedname
@@ -73,7 +73,7 @@ JB :
   # Some JB helpers refer to these paths; change them here if needed.
   #
   archive_path: /archive.html
-  categories_path : /categories.html
+  people_path : /people.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml

@@ -1,27 +1,23 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>Jekyll Bootstrap</title>
-        <description>Jekyll Bootstrap - Name Lastname</description>
+        <title>Threeseee blog</title>
+        <description>Threeseee blog - Threeseee Blog</description>
         <link>http://threeseee.github.io</link>
         <link>http://threeseee.github.io</link>
-        <lastBuildDate>2014-07-15T16:56:05-04:00</lastBuildDate>
-        <pubDate>2014-07-15T16:56:05-04:00</pubDate>
+        <lastBuildDate>2014-07-15T17:59:15-04:00</lastBuildDate>
+        <pubDate>2014-07-15T17:59:15-04:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
-                <title>First Post</title>
-                <description>&lt;p&gt;What happens when we make a real post?&lt;/p&gt;
+                <title>Summary - bjohns</title>
+                <description>&lt;p&gt;Hi friends I’m spending the summer in Santiago, Chile. I work for TOHL, a water infrastructure company, but they don’t really have anything happening right now so after making like 4 ppts and a flyer my first two weeks I’ve basically just been dicking around. It’s super fun but the smog in Santiago is like blehhhhh. Um I have a blog if you want more details about my fun fun Chile adventures. I’m going back to the states on August 16th. I’ve been attempting to speak Spanish and I’m getting better, but I still suck pretty hard. If you didn’t know, I’m sharing an apartment with Anthony and cooking with an oven and pretending really hard to be a real adult and shit. Here’s a selfie.&lt;/p&gt;
 
-&lt;p&gt;Do things happen?&lt;/p&gt;
-
-&lt;!--more--&gt;
-
-&lt;p&gt;Here are some more words&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://4.bp.blogspot.com/-XSyLBi8QSRU/U77Zq3IEdXI/AAAAAAAAJBM/tf7ppt28Jr8/s1600/Jul+10,+2014+2:21:25+PM.jpg&quot; height=&quot;200px&quot; /&gt;&lt;/p&gt;
 </description>
-                <link>http://threeseee.github.io/2014/07/15/first-post</link>
-                <guid>http://threeseee.github.io/2014/07/15/first-post</guid>
+                <link>http://threeseee.github.io/:people/2014/07/15/first-post</link>
+                <guid>http://threeseee.github.io/:people/2014/07/15/first-post</guid>
                 <pubDate>2014-07-15T00:00:00-04:00</pubDate>
         </item>
 
@@ -444,8 +440,8 @@ As noted, our main programming constraint is the fact that our API is limited to
 &lt;p&gt;Please take a look at []()
 or jump right into &lt;a href=&quot;&quot;&gt;Usage&lt;/a&gt; if you’d like.&lt;/p&gt;
 </description>
-                <link>http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction</link>
-                <guid>http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction</guid>
+                <link>http://threeseee.github.io/:people/2011/12/29/jekyll-introduction</link>
+                <guid>http://threeseee.github.io/:people/2011/12/29/jekyll-introduction</guid>
                 <pubDate>2011-12-29T00:00:00-03:00</pubDate>
         </item>
 

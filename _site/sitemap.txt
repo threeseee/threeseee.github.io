@@ -1,12 +1,12 @@
 
+http://threeseee.github.io/People.html
 http://threeseee.github.io/archive.html
 http://threeseee.github.io/atom.xml
-http://threeseee.github.io/categories.html
 http://threeseee.github.io/index.html
 http://threeseee.github.io/pages.html
 http://threeseee.github.io/rss.xml
 http://threeseee.github.io/sitemap.txt
 http://threeseee.github.io/tags.html
 
-http://threeseee.github.io/2014/07/15/first-post
-http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction
+http://threeseee.github.io/:people/2014/07/15/first-post
+http://threeseee.github.io/:people/2011/12/29/jekyll-introduction
