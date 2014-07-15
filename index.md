@@ -1,9 +1,11 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: ThreeSeee
+tagline: Welcome to the blog
 ---
 {% include JB/setup %}
+
+Hey there! We're running this on Jekyll because github only hosts static pages. 
 
 Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
 
