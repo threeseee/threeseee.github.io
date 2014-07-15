@@ -8,4 +8,5 @@ http://threeseee.github.io/rss.xml
 http://threeseee.github.io/sitemap.txt
 http://threeseee.github.io/tags.html
 
+http://threeseee.github.io/2014/07/15/first-post
 http://threeseee.github.io/lessons/2011/12/29/jekyll-introduction
