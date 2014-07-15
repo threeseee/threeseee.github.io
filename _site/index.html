@@ -142,30 +142,9 @@
 
 <p>Complete usage and documentation available at: <a href="http://jekyllbootstrap.com">Jekyll Bootstrap</a></p>
 
-<h2 id="update-author-attributes">Update Author Attributes</h2>
+<p>We should update author attributes at some point. </p>
 
-<p>In <code>_config.yml</code> remember to specify your own data:</p>
-
-<pre><code>title : ThreeSeee Blog
-
-author :
-  name : Name Lastname
-  email : blah@email.test
-  github : username
-  twitter : username
-</code></pre>
-
-<p>The theme should reference these variables whenever needed.</p>
-
-<h2 id="sample-posts">Sample Posts</h2>
-
-<p>This blog contains sample posts which help stage pages and blog data.
-When you don’t need the samples anymore just delete the <code>_posts/core-samples</code> folder.</p>
-
-<pre><code>$ rm -rf _posts/core-samples
-</code></pre>
-
-<p>Here’s a sample “posts list”.</p>
+<h2 id="post-list">Post List</h2>
 
 <ul class="posts">
   
@@ -175,6 +154,8 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
   
 </ul>
 
+<h2 id="posts">Posts</h2>
+
 <!-- Loop in you posts -->
 
 <p><!-- Here's the header --></p>
@@ -183,9 +164,12 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
   </header>
 
 <p><!-- Your post's summary goes here --></p>
-<article><h2 id="first-post">First Post</h2>
+<article><p>What happens when we make a real post?</p>
+
+<p>Do things happen?</p>
 
 </article>
+<hr />
 
 <p><!-- Here's the header --></p>
 <header>
@@ -194,8 +178,35 @@ When you don’t need the samples anymore just delete the <code>_posts/core-samp
 
 <p><!-- Your post's summary goes here --></p>
 <article>
+<p>This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
+Directly following the intro we’ll learn exactly <em>how</em> Jekyll does what it does.</p>
+
+<h4 id="overview">Overview</h4>
+
+<h5 id="what-is-jekyll">What is Jekyll?</h5>
+
+<p>Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
+dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as “a simple, blog aware, static site generator”.</p>
+
+<h5 id="examples">Examples</h5>
+
+<p>This website is created with Jekyll. <a href="https://github.com/mojombo/jekyll/wiki/Sites">Other Jekyll websites</a>.</p>
+
+<h5 id="what-does-jekyll-do">What does Jekyll Do?</h5>
+
+<p>Jekyll is a ruby gem you install on your local system.
+Once there you can call <code>jekyll --server</code> on a directory and provided that directory
+is setup in a way jekyll expects, it will do magic stuff like parse markdown/textile files,
+compute categories, tags, permalinks, and construct your pages from layout templates and partials.</p>
+
+<p>Once parsed, Jekyll stores the result in a self-contained static <code>_site</code> folder.
+The intention here is that you can serve all contents in this folder statically from a plain static web-server.</p>
+
+<p>You can think of Jekyll as a normalish dynamic blog but rather than parsing content, templates, and tags
+on each request, Jekyll does this once <em>beforehand</em> and caches the <em>entire website</em> in a folder for serving statically.</p>
 
 </article>
+<hr />
 
 <h2 id="to-do">To-Do</h2>
 

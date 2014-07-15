@@ -9,20 +9,20 @@ tags : [intro, beginner, jekyll, tutorial]
 This Jekyll introduction will outline specifically  what Jekyll is and why you would want to use it.
 Directly following the intro we'll learn exactly _how_ Jekyll does what it does.
 
-## Overview
+#### Overview
 
-### What is Jekyll?
+##### What is Jekyll?
 
 Jekyll is a parsing engine bundled as a ruby gem used to build static websites from
 dynamic components such as templates, partials, liquid code, markdown, etc. Jekyll is known as "a simple, blog aware, static site generator".
 
-### Examples
+##### Examples
 
 This website is created with Jekyll. [Other Jekyll websites](https://github.com/mojombo/jekyll/wiki/Sites).
 
 
 
-### What does Jekyll Do?
+##### What does Jekyll Do?
 
 Jekyll is a ruby gem you install on your local system.
 Once there you can call `jekyll --server` on a directory and provided that directory
@@ -37,7 +37,7 @@ on each request, Jekyll does this once _beforehand_ and caches the _entire websi
 
         
 <!--more-->
-### Jekyll is Not Blogging Software
+##### Jekyll is Not Blogging Software
 
 **Jekyll is a parsing engine.**
 
@@ -45,7 +45,7 @@ Jekyll does not come with any content nor does it have any templates or design e
 This is a common source of confusion when getting started.
 Jekyll does not come with anything you actually use or see on your website - you have to make it.
 
-### Why Should I Care?
+##### Why Should I Care?
 
 Jekyll is very minimalistic and very efficient.
 The most important thing to realize about Jekyll is that it creates a static representation of your website requiring only a static web-server.
@@ -64,7 +64,7 @@ Therefore if you like to keep things simple and you prefer the command-line over
 - Ability to host freely on GitHub Pages.
 - No database required.
 
-# How Jekyll Works
+### How Jekyll Works
 
 The following is a complete but concise outline of exactly how Jekyll works.
 
@@ -76,12 +76,12 @@ Learning these core concepts should help you avoid common frustrations and ultim
 help you better understand the code examples contained throughout Jekyll-Bootstrap.
 
 
-## Initial Setup
+#### Initial Setup
 
 After [installing jekyll](/index.html#start-now) you'll need to format your website directory in a way jekyll expects.
 Jekyll-bootstrap conveniently provides the base directory format.
 
-### The Jekyll Application Base Format
+##### The Jekyll Application Base Format
 
 Jekyll expects your website directory to be laid out like so:
 
@@ -127,7 +127,7 @@ Jekyll expects your website directory to be laid out like so:
 (read more: <https://github.com/mojombo/jekyll/wiki/Usage>)
 
 
-### Jekyll Configuration
+##### Jekyll Configuration
 
 Jekyll supports various configuration options that are fully outlined here:
 (<https://github.com/mojombo/jekyll/wiki/Configuration>)
@@ -135,17 +135,17 @@ Jekyll supports various configuration options that are fully outlined here:
 
 
 
-## Content in Jekyll
+#### Content in Jekyll
 
 Content in Jekyll is either a post or a page.
 These content "objects" get inserted into one or more templates to build the final output for its respective static-page.
 
-### Posts and Pages
+##### Posts and Pages
 
 Both posts and pages should be written in markdown, textile, or HTML and may also contain Liquid templating syntax.
 Both posts and pages can have meta-data assigned on a per-page basis such as title, url path, as well as arbitrary custom meta-data.
 
-### Working With Posts
+##### Working With Posts
 
 **Creating a Post**
 Posts are created by properly formatting a file and placing it the `_posts` folder.
@@ -182,7 +182,7 @@ Example:
 This defines the category hierarchy "lessons/beginner". Note this is _one category_ node in Jekyll.
 You won't find "lessons" and "beginner" as two separate categories unless you define them elsewhere as singular categories.
 
-### Working With Pages
+##### Working With Pages
 
 **Creating a Page**
 Pages are created by properly formatting a file and placing it anywhere in the root directory or subdirectories that do _not_ start with an underscore.
@@ -218,7 +218,7 @@ This page will be available at `http://yourdomain.com/people/bob/essay.html`
   A nice about page is easy to do and gives the human perspective to your website.
 
 
-## Templates in Jekyll
+#### Templates in Jekyll
 
 Templates are used to contain a page's or post's content.
 All templates have access to a global site object variable: `site` as well as a page object variable: `page`.
@@ -247,13 +247,13 @@ Render the content variable wherever you want your main content to be injected i
 ...{% endcapture %}
 {% include JB/liquid_raw %}
 
-### Sub-Templates
+##### Sub-Templates
 
 Sub-templates are exactly templates with the only difference being they
 define another "root" layout/template within their YAML Front Matter.
 This essentially means a template will render inside of another template.
 
-### Includes
+##### Includes
 In Jekyll you can define include files by placing them in the `_includes` folder.
 Includes are NOT templates, rather they are just code snippets that get included into templates.
 In this way, you can treat the code inside includes as if it was native to the parent template.
@@ -261,12 +261,12 @@ In this way, you can treat the code inside includes as if it was native to the p
 Any valid template code may be used in includes.
 
 
-## Using Liquid for Templating
+#### Using Liquid for Templating
 
 Templating is perhaps the most confusing and frustrating part of Jekyll.
 This is mainly due to the fact that Jekyll templates must use the Liquid Templating Language.
 
-### What is Liquid?
+##### What is Liquid?
 
 [Liquid](https://github.com/Shopify/liquid) is a secure templating language developed by [Shopify](http://shopify.com).
 Liquid is designed for end-users to be able to execute logic within template files
@@ -275,12 +275,12 @@ without imposing any security risk on the hosting server.
 Jekyll uses Liquid to generate the post content within the final page layout structure and as the primary interface for working with
 your site and post/page data.
 
-### Why Do We Have to Use Liquid?
+##### Why Do We Have to Use Liquid?
 
 GitHub uses Jekyll to power [GitHub Pages](http://pages.github.com/).
 GitHub cannot afford to run arbitrary code on their servers so they lock developers down via Liquid.
 
-### Liquid is Not Programmer-Friendly.
+##### Liquid is Not Programmer-Friendly.
 
 The short story is liquid is not real code and its not intended to execute real code.
 The point being you can't do jackshit in liquid that hasn't been allowed explicitly by the implementation.
@@ -300,7 +300,7 @@ _from a programmer's_ perspective. That is to say if you have the ability to run
 you are better off sticking with ruby. Toward that end I've built [Mustache-with-Jekyll](http://github.com/plusjade/mustache-with-jekyll)
 
 
-## Static Assets
+#### Static Assets
 
 Static assets are any file in the root or non-underscored subfolders that are not pages.
 That is they have no valid YAML Front Matter and are thus not treated as Jekyll Pages.
@@ -310,7 +310,7 @@ Static assets should be used for images, css, and javascript files.
 
 
 
-## How Jekyll Parses Files
+#### How Jekyll Parses Files
 
 Remember Jekyll is a processing engine. There are two main types of parsing in Jekyll.
 
@@ -331,7 +331,7 @@ And thus there are two main types of file formats needed for this parsing.
 Files that _are not_ valid pages are treated as static content and pass through
 Jekyll untouched and reside on your blog in the exact structure and format they originally existed in.
 
-### Formatting Files for Parsing.
+##### Formatting Files for Parsing.
 
 We've outlined the need for valid formatting using **YAML Front Matter**.
 Templates, posts, and pages all need to provide valid YAML Front Matter even if the Matter is empty.
@@ -353,7 +353,7 @@ The data inside the block must be valid YAML.
 Configuration parameters for YAML Front-Matter is outlined here:
 [A comprehensive explanation of YAML Front Matter](https://github.com/mojombo/jekyll/wiki/YAML-Front-Matter)
 
-#### Defining Layouts for Posts and Templates Parsing.
+###### Defining Layouts for Posts and Templates Parsing.
 
 The `layout` parameter in the YAML Front Matter defines the template file for which the given post or template should be injected into.
 If a template file specifies its own layout, it is effectively being used as a `sub-template.`
@@ -363,7 +363,7 @@ That is to say loading a post file into a template file that refers to another t
 
 
 
-## How Jekyll Generates the Final Static Files.
+#### How Jekyll Generates the Final Static Files.
 
 Ultimately, Jekyll's job is to generate a static representation of your website.
 The following is an outline of how that's done:
@@ -399,7 +399,7 @@ Remember, in Jekyll you are an end-user. Your API has only two components:
 All the data objects available to you in the templates via Liquid are outlined in the **API Section** of Jekyll-Bootstrap.
 You can also read the original documentation here: <https://github.com/mojombo/jekyll/wiki/Template-Data>
 
-## Conclusion
+#### Conclusion
 
 I hope this paints a clearer picture of what Jekyll is doing and why it works the way it does.
 As noted, our main programming constraint is the fact that our API is limited to what is accessible via Liquid and Liquid only.
@@ -408,7 +408,7 @@ Jekyll-bootstrap is intended to provide helper methods and strategies aimed at m
 
 **Thank you** for reading this far.
 
-## Next Steps
+#### Next Steps
 
 Please take a look at [{{ site.categories.api.first.title }}]({{ BASE_PATH }}{{ site.categories.api.first.url }})
 or jump right into [Usage]({{ BASE_PATH }}{{ site.categories.usage.first.url }}) if you'd like.
