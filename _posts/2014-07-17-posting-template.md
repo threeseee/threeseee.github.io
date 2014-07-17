@@ -12,11 +12,9 @@ tags:
 
 Go here: http://prose.io/#threeseee/threeseee.github.io/new/master/_posts
 
-This is a good template for posting stuff. If you want to make a new paragraph, put an empty line in, 
+This is a good template for posting stuff. If you want to make a new paragraph, put an empty line in. If you want to post an image, do it in this format:
 
-just like this. If you want to post an image, do it in this format:
-
-<img src="IMG-URL" height="200px">
+"<img src="IMG-URL" height="200px">"
 
 Obviously, you can change the height to whatever you want. The width sould auto-scale.
 
