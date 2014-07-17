@@ -34,7 +34,7 @@ We should update author attributes at some point.
   <!-- Your post's summary goes here -->
   <article>{{ post.excerpt }}</article> 
   <br>
-  <a href="{{ post.url }}">Read More </a>
+  <a href="{{ post.url }}">See full post</a>
   <hr>
 {% endfor %}
 
