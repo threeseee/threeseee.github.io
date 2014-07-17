@@ -1,13 +1,13 @@
 ---
 published: true
----
-
----
 layout: post
 title: Posting Template
-category: your-name-here
+category: "your-name-here"
 tagline: "optional, delete line if you want"
-tags : [intro, template, how-to]
+tags: 
+  - intro
+  - template
+  - "how-to"
 ---
 
 Go here: http://prose.io/#threeseee/threeseee.github.io/new/master/_posts
