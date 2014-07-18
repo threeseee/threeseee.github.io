@@ -4,13 +4,40 @@
  <title>Threeseee blog</title>
  <link href="http://threeseee.github.io/" rel="self"/>
  <link href="http://threeseee.github.io"/>
- <updated>2014-07-15T17:59:15-04:00</updated>
+ <updated>2014-07-17T17:21:07-04:00</updated>
  <id>http://threeseee.github.io</id>
  <author>
    <name>Threeseee Blog</name>
    <email>threeseee@mit.edu</email>
  </author>
 
+ 
+ <entry>
+   <title>Posting Template</title>
+   <link href="http://threeseee.github.io/:people/2014/07/17/posting-template"/>
+   <updated>2014-07-17T00:00:00-04:00</updated>
+   <id>http://threeseee.github.io/:people/2014/07/17/posting-template</id>
+   <content type="html">&lt;p&gt;Go here: http://prose.io/#threeseee/threeseee.github.io/new/master/_posts&lt;/p&gt;
+
+&lt;p&gt;To change the filename, just click on it above. It automatically has the format YYYY-MM-DD-YOUR-FILENAME, which you must keep. Though you can obviously edit the “YOUR-FILENAME” part. &lt;/p&gt;
+
+&lt;p&gt;Next, click the middle icon on the left, “Meta Data,” and paste in this info:&lt;/p&gt;
+
+&lt;p&gt;layout: post&lt;/p&gt;
+
+&lt;p&gt;title: Posting Template&lt;/p&gt;
+
+&lt;p&gt;category: your-name-here&lt;/p&gt;
+
+&lt;p&gt;tagline: “optional, delete line if you want”&lt;/p&gt;
+
+&lt;p&gt;tags : [intro, template, how-to]&lt;/p&gt;
+
+&lt;p&gt;To save, first hit “unpublished” in the menu bar up top to change it to “publish.” Then click the bottom icon on the right. Type your name or something into the box and hit “commit.”&lt;/p&gt;
+
+&lt;p&gt;And that’s all! Check out the question mark thingy above if you have questions.&lt;/p&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Summary - bjohns</title>

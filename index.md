@@ -14,6 +14,13 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 
 We should update author attributes at some point. 
 
+<script type="text/javascript" src="http://veranochileno.tumblr.com/js?num=3"></script>
+
+<div id="images"></div>  
+<div class="flickrNav">
+    <a id="prev" href="#">Prev</a><a id="next" href="#">Next</a>
+</div>
+
 ## Post List
 
 <ul class="posts">
