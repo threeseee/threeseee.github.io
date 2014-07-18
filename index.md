@@ -15,6 +15,8 @@ Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllb
 We should update author attributes at some point. 
 
 <script type="text/javascript" src="http://veranochileno.tumblr.com/js?num=3"></script>
+ <script type="text/javascript" src="http://hojinjeon.tumblr.com/js?num=3"></script>
+                    </div>
 
 <div id="images"></div>  
 <div class="flickrNav">
